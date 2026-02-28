@@ -1,0 +1,5 @@
+{
+  "test": "Test text from json.",
+  "intError": "User enters incorrect value for integer.",
+  "doubleError12": "User enters incorrect value for double."
+}

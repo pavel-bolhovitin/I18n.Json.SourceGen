@@ -1,0 +1,56 @@
+{
+  "hello": "Hello, World!",
+  "greeting": "Hello, {{name}}!",
+  "ui": {
+    "pagination": {
+      "info": "Showing {{start}} to {{end}} of {{total}} results",
+      "simple": "Page {{current}} of {{total}}"
+    },
+    "user_info": {
+      "level_0": "Active",
+      "level_1": {
+        "score": "Your score: {{points}}",
+        "level_2": {
+          "achievement": "Congrats {{name}}! You earned the {{medal}} trophy in {{category}}!"
+        }
+      }
+    }
+  },
+  "animals": {
+    "small": "Small",
+    "medium": "Medium",
+    "big": "Big",
+    "land": {
+      "white": "White",
+      "red": "Red",
+      "domestic": {
+        "cat": "Cat",
+        "dog": "Dog"
+      },
+      "wild": {
+        "wolf": "Wolf",
+        "bear": "Bear"
+      }
+    },
+    "water": {
+      "saltwater": {
+        "shark": "Shark",
+        "whale": "Whale"
+      },
+      "freshwater": {
+        "pike": "Pike",
+        "perch": "Perch"
+      }
+    },
+    "flying": {
+      "birds": {
+        "eagle": "Eagle",
+        "sparrow": "Sparrow"
+      },
+      "insects": {
+        "bee": "Bee",
+        "butterfly": "Butterfly"
+      }
+    }
+  }
+}

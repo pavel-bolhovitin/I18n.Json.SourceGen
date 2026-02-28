@@ -1,0 +1,7 @@
+{
+  "Namespace": "TestI18n",
+  "LocalePaths": [
+    "locales",
+    "en.json"
+  ]
+}

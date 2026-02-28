@@ -4,6 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
+	<IncludeBuildOutput>false</IncludeBuildOutput>
+	<EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+	<!--For Debug:-->
+	<!--<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>-->
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,6 +17,10 @@
     </PackageReference>
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="5.0.0" />
     <PackageReference Include="System.Text.Json" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="D:\projects\I18n.Json.SourceGen\I18n.Json.SourceGen\.editorconfig" />
   </ItemGroup>
 
 </Project>
